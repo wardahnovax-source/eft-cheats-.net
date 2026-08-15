@@ -124,7 +124,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'EFT Cheats overview',
+		ctaSecondary: 'Escape from Tarkov overview',
 		ctaSecondaryHref: '/tarkov-cheats/',
 		galleryTitle: 'In-game look',
 		sections: [
@@ -157,7 +157,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'EFT Cheats',
+		h1: 'Escape from Tarkov',
 		intro: brandCopy.previewIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
@@ -206,7 +206,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'ESP',
 		intro: 'See players and loot through walls during Tarkov raids. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'EFT Cheats overview',
+		ctaSecondary: 'Escape from Tarkov overview',
 		ctaSecondaryHref: '/tarkov-cheats/',
 		galleryTitle: 'ESP in raid',
 		sections: [
@@ -238,7 +238,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Aimbot',
 		intro: 'Soft aim and aim assist you can tune for Tarkov. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'EFT Cheats overview',
+		ctaSecondary: 'Escape from Tarkov overview',
 		ctaSecondaryHref: '/tarkov-cheats/',
 		galleryTitle: 'Aimbot view',
 		sections: [
@@ -270,7 +270,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'EFT Cheats overview',
+		ctaSecondary: 'Escape from Tarkov overview',
 		ctaSecondaryHref: '/tarkov-cheats/',
 		galleryTitle: 'Radar overlay',
 		sections: [

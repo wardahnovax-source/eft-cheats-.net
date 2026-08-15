@@ -32,7 +32,7 @@ export type LocaleMeta = {
 	region: string;
 };
 
-/** 22 locales for global EFT Cheats blog SEO coverage. */
+/** 22 locales for global Escape from Tarkov blog SEO coverage. */
 export const locales: LocaleMeta[] = [
 	{ code: 'en', name: 'English', nativeName: 'English', hreflang: 'en', ogLocale: 'en_US', dir: 'ltr', region: 'Worldwide' },
 	{ code: 'es', name: 'Spanish', nativeName: 'Español', hreflang: 'es', ogLocale: 'es_ES', dir: 'ltr', region: 'Worldwide' },
@@ -93,25 +93,25 @@ export const blogUi: Record<
 	}
 > = {
 	en: {
-		blogTitle: 'EFT Cheats Blog | Raid Guides',
+		blogTitle: 'Escape from Tarkov Blog | Raid Guides',
 		blogDescription:
 			'Escape from Tarkov guides — raid tips, ESP, aimbot notes, loot routes, and BattlEye update coverage. English blog at eftcheats.net/blog/.',
-		blogH1: 'EFT Cheats Intel',
+		blogH1: 'Escape from Tarkov Intel',
 		blogIntro:
-			'Short Escape from Tarkov guides for PMC raids and Scav runs. Pair these tips with the EFT Cheats product pages when you need ESP, soft aim, or radar.',
+			'Short Escape from Tarkov guides for PMC raids and Scav runs. Pair these tips with the Escape from Tarkov product pages when you need ESP, soft aim, or radar.',
 		readMore: 'Read guide',
 		published: 'Published',
 		updated: 'Updated',
 		relatedPosts: 'Related guides',
 		allPosts: 'All blog posts',
-		home: 'EFT Cheats home',
+		home: 'Escape from Tarkov home',
 		language: 'Language',
 	},
 	es: {
-		blogTitle: 'Blog EFT Cheats 2026 | Guías en 22 idiomas',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Guías en 22 idiomas',
 		blogDescription:
-			'Blog de EFT Cheats con guías de trucos indetectables, ESP wallhack, radar y Aimbot para Escape from Tarkov en PC Windows.',
-		blogH1: 'Blog EFT Cheats — Guías globales',
+			'Blog de Escape from Tarkov con guías de trucos indetectables, ESP wallhack, radar y Aimbot para Escape from Tarkov en PC Windows.',
+		blogH1: 'Blog Escape from Tarkov — Guías globales',
 		blogIntro:
 			'Guías SEO de trucos Escape from Tarkov indetectables, ESP wallhack, radar hack, Aimbot y mantenimiento BattlEye anti-cheat en 22 idiomas.',
 		readMore: 'Leer guía',
@@ -119,14 +119,14 @@ export const blogUi: Record<
 		updated: 'Actualizado',
 		relatedPosts: 'Guías Escape from Tarkov relacionadas',
 		allPosts: 'Todos los artículos',
-		home: 'Inicio EFT Cheats',
+		home: 'Inicio Escape from Tarkov',
 		language: 'Idioma',
 	},
 	fr: {
-		blogTitle: 'Blog EFT Cheats 2026 | Guides en 22 langues',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Guides en 22 langues',
 		blogDescription:
-			'Blog EFT Cheats : triches indétectables, ESP wallhack, radar et Aimbot pour Escape from Tarkov sur PC Windows.',
-		blogH1: 'Blog EFT Cheats — Guides mondiaux',
+			'Blog Escape from Tarkov : triches indétectables, ESP wallhack, radar et Aimbot pour Escape from Tarkov sur PC Windows.',
+		blogH1: 'Blog Escape from Tarkov — Guides mondiaux',
 		blogIntro:
 			'Guides SEO triches Escape from Tarkov indétectables, ESP wallhack, radar hack, Aimbot et BattlEye anti-cheat en 22 langues.',
 		readMore: 'Lire le guide',
@@ -134,29 +134,29 @@ export const blogUi: Record<
 		updated: 'Mis à jour',
 		relatedPosts: 'Guides Escape from Tarkov associés',
 		allPosts: 'Tous les articles',
-		home: 'Accueil EFT Cheats',
+		home: 'Accueil Escape from Tarkov',
 		language: 'Langue',
 	},
 	de: {
-		blogTitle: 'EFT Cheats Blog 2026 | Guides in 22 Sprachen',
+		blogTitle: 'Escape from Tarkov Blog 2026 | Guides in 22 Sprachen',
 		blogDescription:
-			'EFT Cheats Blog mit undetected ESP, Wallhack, Radar und Aimbot Guides für Escape from Tarkov auf Windows PC.',
-		blogH1: 'EFT Cheats Blog — Globale Guides',
+			'Escape from Tarkov Blog mit undetected ESP, Wallhack, Radar und Aimbot Guides für Escape from Tarkov auf Windows PC.',
+		blogH1: 'Escape from Tarkov Blog — Globale Guides',
 		blogIntro:
-			'SEO-Guides für undetected EFT Cheats, ESP Wallhack, Radar Hack, Aimbot und BattlEye anti-cheat in 22 Sprachen.',
+			'SEO-Guides für undetected Escape from Tarkov, ESP Wallhack, Radar Hack, Aimbot und BattlEye anti-cheat in 22 Sprachen.',
 		readMore: 'Guide lesen',
 		published: 'Veröffentlicht',
 		updated: 'Aktualisiert',
 		relatedPosts: 'Verwandte Escape from Tarkov Guides',
 		allPosts: 'Alle Beiträge',
-		home: 'EFT Cheats Start',
+		home: 'Escape from Tarkov Start',
 		language: 'Sprache',
 	},
 	pt: {
-		blogTitle: 'Blog EFT Cheats 2026 | Guias em 22 idiomas',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Guias em 22 idiomas',
 		blogDescription:
-			'Blog EFT Cheats com guias de cheats indetectáveis, ESP wallhack, radar e Aimbot para Escape from Tarkov no PC.',
-		blogH1: 'Blog EFT Cheats — Guias globais',
+			'Blog Escape from Tarkov com guias de cheats indetectáveis, ESP wallhack, radar e Aimbot para Escape from Tarkov no PC.',
+		blogH1: 'Blog Escape from Tarkov — Guias globais',
 		blogIntro:
 			'Guias SEO de cheats Escape from Tarkov indetectáveis, ESP wallhack, radar hack, Aimbot e BattlEye anti-cheat em 22 idiomas.',
 		readMore: 'Ler guia',
@@ -164,14 +164,14 @@ export const blogUi: Record<
 		updated: 'Atualizado',
 		relatedPosts: 'Guias Escape from Tarkov relacionados',
 		allPosts: 'Todos os posts',
-		home: 'Início EFT Cheats',
+		home: 'Início Escape from Tarkov',
 		language: 'Idioma',
 	},
 	it: {
-		blogTitle: 'Blog EFT Cheats 2026 | Guide in 22 lingue',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Guide in 22 lingue',
 		blogDescription:
-			'Blog EFT Cheats con guide cheat indetectable, ESP wallhack, radar e Aimbot per Escape from Tarkov su PC Windows.',
-		blogH1: 'Blog EFT Cheats — Guide globali',
+			'Blog Escape from Tarkov con guide cheat indetectable, ESP wallhack, radar e Aimbot per Escape from Tarkov su PC Windows.',
+		blogH1: 'Blog Escape from Tarkov — Guide globali',
 		blogIntro:
 			'Guide SEO cheat Escape from Tarkov indetectable, ESP wallhack, radar hack, Aimbot e BattlEye anti-cheat in 22 lingue.',
 		readMore: 'Leggi guida',
@@ -179,14 +179,14 @@ export const blogUi: Record<
 		updated: 'Aggiornato',
 		relatedPosts: 'Guide Escape from Tarkov correlate',
 		allPosts: 'Tutti gli articoli',
-		home: 'Home EFT Cheats',
+		home: 'Home Escape from Tarkov',
 		language: 'Lingua',
 	},
 	nl: {
-		blogTitle: 'EFT Cheats Blog 2026 | Gidsen in 22 talen',
+		blogTitle: 'Escape from Tarkov Blog 2026 | Gidsen in 22 talen',
 		blogDescription:
-			'EFT Cheats blog met undetected ESP, wallhack, radar en Aimbot gidsen voor Escape from Tarkov op Windows PC.',
-		blogH1: 'EFT Cheats Blog — Wereldwijde gidsen',
+			'Escape from Tarkov blog met undetected ESP, wallhack, radar en Aimbot gidsen voor Escape from Tarkov op Windows PC.',
+		blogH1: 'Escape from Tarkov Blog — Wereldwijde gidsen',
 		blogIntro:
 			'SEO-gidsen voor undetected Tarkov cheats, ESP wallhack, radar hack, Aimbot en BattlEye anti-cheat in 22 talen.',
 		readMore: 'Lees gids',
@@ -194,14 +194,14 @@ export const blogUi: Record<
 		updated: 'Bijgewerkt',
 		relatedPosts: 'Gerelateerde Escape from Tarkov gidsen',
 		allPosts: 'Alle posts',
-		home: 'EFT Cheats home',
+		home: 'Escape from Tarkov home',
 		language: 'Taal',
 	},
 	pl: {
-		blogTitle: 'Blog EFT Cheats 2026 | Poradniki w 22 językach',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Poradniki w 22 językach',
 		blogDescription:
-			'Blog EFT Cheats z poradnikami undetected ESP, wallhack, radar i Aimbot dla Escape from Tarkov na PC.',
-		blogH1: 'Blog EFT Cheats — Globalne poradniki',
+			'Blog Escape from Tarkov z poradnikami undetected ESP, wallhack, radar i Aimbot dla Escape from Tarkov na PC.',
+		blogH1: 'Blog Escape from Tarkov — Globalne poradniki',
 		blogIntro:
 			'Poradniki SEO undetected cheatów Escape from Tarkov, ESP wallhack, radar hack, Aimbot i BattlEye anti-cheat w 22 językach.',
 		readMore: 'Czytaj poradnik',
@@ -209,14 +209,14 @@ export const blogUi: Record<
 		updated: 'Zaktualizowano',
 		relatedPosts: 'Powiązane poradniki Escape from Tarkov',
 		allPosts: 'Wszystkie artykuły',
-		home: 'Strona główna EFT Cheats',
+		home: 'Strona główna Escape from Tarkov',
 		language: 'Język',
 	},
 	ru: {
-		blogTitle: 'Блог EFT Cheats 2026 | Гайды на 22 языках',
+		blogTitle: 'Блог Escape from Tarkov 2026 | Гайды на 22 языках',
 		blogDescription:
-			'Блог EFT Cheats: undetected ESP, wallhack, radar и Aimbot для Escape from Tarkov на Windows PC.',
-		blogH1: 'Блог EFT Cheats — Глобальные гайды',
+			'Блог Escape from Tarkov: undetected ESP, wallhack, radar и Aimbot для Escape from Tarkov на Windows PC.',
+		blogH1: 'Блог Escape from Tarkov — Глобальные гайды',
 		blogIntro:
 			'SEO-гайды по undetected читам Escape from Tarkov, ESP wallhack, radar hack, Aimbot и BattlEye anti-cheat на 22 языках.',
 		readMore: 'Читать гайд',
@@ -224,14 +224,14 @@ export const blogUi: Record<
 		updated: 'Обновлено',
 		relatedPosts: 'Похожие гайды Escape from Tarkov',
 		allPosts: 'Все статьи',
-		home: 'Главная EFT Cheats',
+		home: 'Главная Escape from Tarkov',
 		language: 'Язык',
 	},
 	tr: {
-		blogTitle: 'EFT Cheats Blog 2026 | 22 dilde rehberler',
+		blogTitle: 'Escape from Tarkov Blog 2026 | 22 dilde rehberler',
 		blogDescription:
-			'EFT Cheats blog: undetected ESP, wallhack, radar ve Aimbot rehberleri Escape from Tarkov Windows PC.',
-		blogH1: 'EFT Cheats Blog — Küresel rehberler',
+			'Escape from Tarkov blog: undetected ESP, wallhack, radar ve Aimbot rehberleri Escape from Tarkov Windows PC.',
+		blogH1: 'Escape from Tarkov Blog — Küresel rehberler',
 		blogIntro:
 			'Undetected Escape from Tarkov hileleri, ESP wallhack, radar hack, Aimbot ve BattlEye anti-cheat SEO rehberleri 22 dilde.',
 		readMore: 'Rehberi oku',
@@ -239,14 +239,14 @@ export const blogUi: Record<
 		updated: 'Güncellendi',
 		relatedPosts: 'İlgili Escape from Tarkov rehberleri',
 		allPosts: 'Tüm yazılar',
-		home: 'EFT Cheats ana sayfa',
+		home: 'Escape from Tarkov ana sayfa',
 		language: 'Dil',
 	},
 	ar: {
-		blogTitle: 'مدونة EFT Cheats 2026 | أدلة بـ 22 لغة',
+		blogTitle: 'مدونة Escape from Tarkov 2026 | أدلة بـ 22 لغة',
 		blogDescription:
-			'مدونة EFT Cheats: غش undetected وESP wallhack ورadar وAimbot لـ Escape from Tarkov على Windows PC.',
-		blogH1: 'مدونة EFT Cheats — أدلة عالمية',
+			'مدونة Escape from Tarkov: غش undetected وESP wallhack ورadar وAimbot لـ Escape from Tarkov على Windows PC.',
+		blogH1: 'مدونة Escape from Tarkov — أدلة عالمية',
 		blogIntro:
 			'أدلة SEO لغش Escape from Tarkov undetected وESP wallhack ورadar hack وAimbot وBattlEye anti-cheat بـ 22 لغة.',
 		readMore: 'اقرأ الدليل',
@@ -254,14 +254,14 @@ export const blogUi: Record<
 		updated: 'تم التحديث',
 		relatedPosts: 'أدلة Escape from Tarkov ذات صلة',
 		allPosts: 'جميع المقالات',
-		home: 'الرئيسية EFT Cheats',
+		home: 'الرئيسية Escape from Tarkov',
 		language: 'اللغة',
 	},
 	ja: {
-		blogTitle: 'EFT Cheats ブログ 2026 | 22言語ガイド',
+		blogTitle: 'Escape from Tarkov ブログ 2026 | 22言語ガイド',
 		blogDescription:
-			'EFT Cheatsブログ：undetected ESP、wallhack、radar、Aimbotガイド。Escape from Tarkov Windows PC向け。',
-		blogH1: 'EFT Cheats ブログ — グローバルガイド',
+			'Escape from Tarkovブログ：undetected ESP、wallhack、radar、Aimbotガイド。Escape from Tarkov Windows PC向け。',
+		blogH1: 'Escape from Tarkov ブログ — グローバルガイド',
 		blogIntro:
 			'undetected Escape from Tarkovチート、ESP wallhack、radar hack、Aimbot、BattlEye anti-cheatのSEOガイドを22言語で提供。',
 		readMore: 'ガイドを読む',
@@ -269,14 +269,14 @@ export const blogUi: Record<
 		updated: '更新日',
 		relatedPosts: '関連Escape from Tarkovガイド',
 		allPosts: 'すべての記事',
-		home: 'EFT Cheats ホーム',
+		home: 'Escape from Tarkov ホーム',
 		language: '言語',
 	},
 	ko: {
-		blogTitle: 'EFT Cheats 블로그 2026 | 22개 언어 가이드',
+		blogTitle: 'Escape from Tarkov 블로그 2026 | 22개 언어 가이드',
 		blogDescription:
-			'EFT Cheats 블로그: undetected ESP, wallhack, radar, Aimbot 가이드. Escape from Tarkov Windows PC.',
-		blogH1: 'EFT Cheats 블로그 — 글로벌 가이드',
+			'Escape from Tarkov 블로그: undetected ESP, wallhack, radar, Aimbot 가이드. Escape from Tarkov Windows PC.',
+		blogH1: 'Escape from Tarkov 블로그 — 글로벌 가이드',
 		blogIntro:
 			'undetected Escape from Tarkov 치트, ESP wallhack, radar hack, Aimbot, BattlEye anti-cheat SEO 가이드를 22개 언어로 제공.',
 		readMore: '가이드 읽기',
@@ -284,14 +284,14 @@ export const blogUi: Record<
 		updated: '업데이트',
 		relatedPosts: '관련 Escape from Tarkov 가이드',
 		allPosts: '모든 게시물',
-		home: 'EFT Cheats 홈',
+		home: 'Escape from Tarkov 홈',
 		language: '언어',
 	},
 	zh: {
-		blogTitle: 'EFT Cheats 博客 2026 | 22种语言指南',
+		blogTitle: 'Escape from Tarkov 博客 2026 | 22种语言指南',
 		blogDescription:
-			'EFT Cheats博客：undetected ESP、wallhack、radar和Aimbot指南，适用于Escape from Tarkov Windows PC。',
-		blogH1: 'EFT Cheats 博客 — 全球指南',
+			'Escape from Tarkov博客：undetected ESP、wallhack、radar和Aimbot指南，适用于Escape from Tarkov Windows PC。',
+		blogH1: 'Escape from Tarkov 博客 — 全球指南',
 		blogIntro:
 			'undetected Escape from Tarkov作弊、ESP wallhack、radar hack、Aimbot和BattlEye anti-cheat的SEO指南，共22种语言。',
 		readMore: '阅读指南',
@@ -299,14 +299,14 @@ export const blogUi: Record<
 		updated: '更新',
 		relatedPosts: '相关Escape from Tarkov指南',
 		allPosts: '所有文章',
-		home: 'EFT Cheats 首页',
+		home: 'Escape from Tarkov 首页',
 		language: '语言',
 	},
 	hi: {
-		blogTitle: 'EFT Cheats ब्लॉग 2026 | 22 भाषाओं में गाइड',
+		blogTitle: 'Escape from Tarkov ब्लॉग 2026 | 22 भाषाओं में गाइड',
 		blogDescription:
-			'EFT Cheats ब्लॉग: undetected ESP, wallhack, radar और Aimbot गाइड Escape from Tarkov Windows PC के लिए।',
-		blogH1: 'EFT Cheats ब्लॉग — वैश्विक गाइड',
+			'Escape from Tarkov ब्लॉग: undetected ESP, wallhack, radar और Aimbot गाइड Escape from Tarkov Windows PC के लिए।',
+		blogH1: 'Escape from Tarkov ब्लॉग — वैश्विक गाइड',
 		blogIntro:
 			'undetected Tarkov cheats, ESP wallhack, radar hack, Aimbot और BattlEye anti-cheat SEO गाइड 22 भाषाओं में।',
 		readMore: 'गाइड पढ़ें',
@@ -314,14 +314,14 @@ export const blogUi: Record<
 		updated: 'अपडेट',
 		relatedPosts: 'संबंधित Escape from Tarkov गाइड',
 		allPosts: 'सभी पोस्ट',
-		home: 'EFT Cheats होम',
+		home: 'Escape from Tarkov होम',
 		language: 'भाषा',
 	},
 	id: {
-		blogTitle: 'Blog EFT Cheats 2026 | Panduan 22 bahasa',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Panduan 22 bahasa',
 		blogDescription:
-			'Blog EFT Cheats: panduan undetected ESP, wallhack, radar dan Aimbot untuk Escape from Tarkov di PC Windows.',
-		blogH1: 'Blog EFT Cheats — Panduan global',
+			'Blog Escape from Tarkov: panduan undetected ESP, wallhack, radar dan Aimbot untuk Escape from Tarkov di PC Windows.',
+		blogH1: 'Blog Escape from Tarkov — Panduan global',
 		blogIntro:
 			'Panduan SEO cheat Escape from Tarkov undetected, ESP wallhack, radar hack, Aimbot dan BattlEye anti-cheat dalam 22 bahasa.',
 		readMore: 'Baca panduan',
@@ -329,14 +329,14 @@ export const blogUi: Record<
 		updated: 'Diperbarui',
 		relatedPosts: 'Panduan Escape from Tarkov terkait',
 		allPosts: 'Semua artikel',
-		home: 'Beranda EFT Cheats',
+		home: 'Beranda Escape from Tarkov',
 		language: 'Bahasa',
 	},
 	th: {
-		blogTitle: 'บล็อก EFT Cheats 2026 | คู่มือ 22 ภาษา',
+		blogTitle: 'บล็อก Escape from Tarkov 2026 | คู่มือ 22 ภาษา',
 		blogDescription:
-			'บล็อก EFT Cheats: คู่มือ undetected ESP, wallhack, radar และ Aimbot สำหรับ Escape from Tarkov บน PC',
-		blogH1: 'บล็อก EFT Cheats — คู่มือทั่วโลก',
+			'บล็อก Escape from Tarkov: คู่มือ undetected ESP, wallhack, radar และ Aimbot สำหรับ Escape from Tarkov บน PC',
+		blogH1: 'บล็อก Escape from Tarkov — คู่มือทั่วโลก',
 		blogIntro:
 			'คู่มือ SEO สำหรับ cheat Escape from Tarkov undetected, ESP wallhack, radar hack, Aimbot และ BattlEye anti-cheat 22 ภาษา',
 		readMore: 'อ่านคู่มือ',
@@ -344,14 +344,14 @@ export const blogUi: Record<
 		updated: 'อัปเดต',
 		relatedPosts: 'คู่มือ Escape from Tarkov ที่เกี่ยวข้อง',
 		allPosts: 'บทความทั้งหมด',
-		home: 'หน้าแรก EFT Cheats',
+		home: 'หน้าแรก Escape from Tarkov',
 		language: 'ภาษา',
 	},
 	vi: {
-		blogTitle: 'Blog EFT Cheats 2026 | Hướng dẫn 22 ngôn ngữ',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Hướng dẫn 22 ngôn ngữ',
 		blogDescription:
-			'Blog EFT Cheats: hướng dẫn undetected ESP, wallhack, radar và Aimbot cho Escape from Tarkov trên PC.',
-		blogH1: 'Blog EFT Cheats — Hướng dẫn toàn cầu',
+			'Blog Escape from Tarkov: hướng dẫn undetected ESP, wallhack, radar và Aimbot cho Escape from Tarkov trên PC.',
+		blogH1: 'Blog Escape from Tarkov — Hướng dẫn toàn cầu',
 		blogIntro:
 			'Hướng dẫn SEO cheat Escape from Tarkov undetected, ESP wallhack, radar hack, Aimbot và BattlEye anti-cheat bằng 22 ngôn ngữ.',
 		readMore: 'Đọc hướng dẫn',
@@ -359,14 +359,14 @@ export const blogUi: Record<
 		updated: 'Cập nhật',
 		relatedPosts: 'Hướng dẫn Escape from Tarkov liên quan',
 		allPosts: 'Tất cả bài viết',
-		home: 'Trang chủ EFT Cheats',
+		home: 'Trang chủ Escape from Tarkov',
 		language: 'Ngôn ngữ',
 	},
 	uk: {
-		blogTitle: 'Блог EFT Cheats 2026 | Гайди 22 мовами',
+		blogTitle: 'Блог Escape from Tarkov 2026 | Гайди 22 мовами',
 		blogDescription:
-			'Блог EFT Cheats: undetected ESP, wallhack, radar та Aimbot для Escape from Tarkov на Windows PC.',
-		blogH1: 'Блог EFT Cheats — Глобальні гайди',
+			'Блог Escape from Tarkov: undetected ESP, wallhack, radar та Aimbot для Escape from Tarkov на Windows PC.',
+		blogH1: 'Блог Escape from Tarkov — Глобальні гайди',
 		blogIntro:
 			'SEO-гайди з undetected читів Escape from Tarkov, ESP wallhack, radar hack, Aimbot та BattlEye anti-cheat 22 мовами.',
 		readMore: 'Читати гайд',
@@ -374,14 +374,14 @@ export const blogUi: Record<
 		updated: 'Оновлено',
 		relatedPosts: "Пов'язані гайди Escape from Tarkov",
 		allPosts: 'Усі статті',
-		home: 'Головна EFT Cheats',
+		home: 'Головна Escape from Tarkov',
 		language: 'Мова',
 	},
 	cs: {
-		blogTitle: 'Blog EFT Cheats 2026 | Průvodce ve 22 jazycích',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Průvodce ve 22 jazycích',
 		blogDescription:
-			'Blog EFT Cheats: undetected ESP, wallhack, radar a Aimbot pro Escape from Tarkov na Windows PC.',
-		blogH1: 'Blog EFT Cheats — Globální průvodce',
+			'Blog Escape from Tarkov: undetected ESP, wallhack, radar a Aimbot pro Escape from Tarkov na Windows PC.',
+		blogH1: 'Blog Escape from Tarkov — Globální průvodce',
 		blogIntro:
 			'SEO průvodce undetected Tarkov cheaty, ESP wallhack, radar hack, Aimbot a BattlEye anti-cheat ve 22 jazycích.',
 		readMore: 'Číst průvodce',
@@ -389,14 +389,14 @@ export const blogUi: Record<
 		updated: 'Aktualizováno',
 		relatedPosts: 'Související Escape from Tarkov průvodce',
 		allPosts: 'Všechny články',
-		home: 'Domů EFT Cheats',
+		home: 'Domů Escape from Tarkov',
 		language: 'Jazyk',
 	},
 	ro: {
-		blogTitle: 'Blog EFT Cheats 2026 | Ghiduri în 22 de limbi',
+		blogTitle: 'Blog Escape from Tarkov 2026 | Ghiduri în 22 de limbi',
 		blogDescription:
-			'Blog EFT Cheats: ghiduri undetected ESP, wallhack, radar și Aimbot pentru Escape from Tarkov pe PC.',
-		blogH1: 'Blog EFT Cheats — Ghiduri globale',
+			'Blog Escape from Tarkov: ghiduri undetected ESP, wallhack, radar și Aimbot pentru Escape from Tarkov pe PC.',
+		blogH1: 'Blog Escape from Tarkov — Ghiduri globale',
 		blogIntro:
 			'Ghiduri SEO cheat-uri Escape from Tarkov undetected, ESP wallhack, radar hack, Aimbot și BattlEye anti-cheat în 22 de limbi.',
 		readMore: 'Citește ghidul',
@@ -404,14 +404,14 @@ export const blogUi: Record<
 		updated: 'Actualizat',
 		relatedPosts: 'Ghiduri Escape from Tarkov related',
 		allPosts: 'Toate articolele',
-		home: 'Acasă EFT Cheats',
+		home: 'Acasă Escape from Tarkov',
 		language: 'Limbă',
 	},
 	sv: {
-		blogTitle: 'EFT Cheats Blogg 2026 | Guider på 22 språk',
+		blogTitle: 'Escape from Tarkov Blogg 2026 | Guider på 22 språk',
 		blogDescription:
-			'EFT Cheats blogg med undetected ESP, wallhack, radar och Aimbot guider för Escape from Tarkov på PC.',
-		blogH1: 'EFT Cheats Blogg — Globala guider',
+			'Escape from Tarkov blogg med undetected ESP, wallhack, radar och Aimbot guider för Escape from Tarkov på PC.',
+		blogH1: 'Escape from Tarkov Blogg — Globala guider',
 		blogIntro:
 			'SEO-guider för undetected Tarkov cheats, ESP wallhack, radar hack, Aimbot och BattlEye anti-cheat på 22 språk.',
 		readMore: 'Läs guide',
@@ -419,7 +419,7 @@ export const blogUi: Record<
 		updated: 'Uppdaterad',
 		relatedPosts: 'Relaterade Escape from Tarkov guider',
 		allPosts: 'Alla inlägg',
-		home: 'EFT Cheats hem',
+		home: 'Escape from Tarkov hem',
 		language: 'Språk',
 	},
 };

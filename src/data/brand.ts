@@ -5,9 +5,9 @@
  */
 export const brand = {
 	/** Public brand name (nav, footer, H1 hero, schema Organization) */
-	name: 'EFT Cheats',
+	name: 'Escape from Tarkov',
 	/** Short product label if needed */
-	shortName: 'EFT',
+	shortName: 'Tarkov',
 	/** Canonical origin — no trailing slash */
 	url: 'https://eftcheats.net',
 	locale: 'en',
@@ -24,7 +24,7 @@ export const brand = {
 	logoRaster: '/images/eft-cheats-logo.png',
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
-	logoAlt: 'EFT Cheats logo',
+	logoAlt: 'Escape from Tarkov logo',
 	defaultOgImage: '/images/eft-cheats-hero-1024w.webp',
 	heroImage: '/images/eft-cheats-hero-1024w.webp',
 
@@ -73,9 +73,9 @@ export const brand = {
 	seo: {
 		/** Titles ≤60 chars; descriptions ~140–160 (Google SERP display). */
 		/** Home = brand hub. Money URL /tarkov-cheats/ owns the head term. */
-		homeTitle: 'EFT Cheats | Escape from Tarkov ESP & Aimbot',
+		homeTitle: 'Escape from Tarkov | Undetected ESP & Aimbot',
 		homeDescription:
-			'Official EFT Cheats site for Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass — compare plans and buy with 24/7 support.',
+			'Official Escape from Tarkov cheats site for Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass — compare plans and buy with 24/7 support.',
 		featuresTitle: '{game} Features | {brand}',
 		featuresDescription:
 			'Everything in one {game} license — player ESP with skeleton, loot ESP, extraction ESP, aimbot, no recoil, Cloud DMA, and {antiCheat} bypass on Windows PC.',
@@ -86,9 +86,9 @@ export const brand = {
 		statusDescription:
 			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a raid on Windows PC today.',
 		/** Money page meta — primary target for "eft cheats". */
-		previewTitle: 'EFT Cheats | Undetected ESP & Aimbot',
+		previewTitle: 'Escape from Tarkov Cheats | Undetected ESP',
 		previewDescription:
-			'Buy undetected EFT cheats for Escape from Tarkov on Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass with instant delivery.',
+			'Buy undetected Escape from Tarkov cheats on Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass with instant delivery.',
 		setupTitle: '{game} Setup | {brand}',
 		setupDescription:
 			'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can raid faster. Follow each step in order before your first match.',
@@ -112,14 +112,14 @@ export const brand = {
 		summary:
 			'{brand} is an undetected {game} cheat package for Windows PC. Includes player ESP with skeleton, loot ESP, aimbot, no recoil, and Cloud DMA with {antiCheat} bypass.',
 		heroLede: 'Undetected player ESP, loot ESP, aimbot, and Cloud DMA for Escape from Tarkov on Windows PC.',
-		blogLabel: 'EFT Intel',
+		blogLabel: 'Tarkov Intel',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',
 		featuresIntro: 'Everything included in one license for {game} on Windows PC.',
 		storeIntro: 'Pick a plan. Same features on both. Instant delivery after payment.',
 		statusIntro: 'Check here after a {game} or {antiCheat} patch before you raid.',
 		previewIntro:
-			'{brand} for Escape from Tarkov — player ESP with skeleton, loot ESP, aimbot, no recoil, Cloud DMA, and BattlEye bypass.',
+			'Undetected cheats for {game} — player ESP with skeleton, loot ESP, aimbot, no recoil, Cloud DMA, and BattlEye bypass.',
 		setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 		supportIntro: 'Need help with {brand}? Email {email} with your order ID — 24/7 support available.',
 		faqIntro: 'Short answers about delivery, setup, updates, Cloud DMA, and refunds.',
@@ -160,8 +160,8 @@ export const brand = {
 			},
 			{
 				src: '/images/eft-cheats-hero-1024w.webp',
-				title: 'EFT Cheats — Escape from Tarkov ESP and aimbot',
-				caption: 'Undetected EFT cheats with player ESP, loot ESP, and Cloud DMA',
+				title: 'Escape from Tarkov — ESP and aimbot',
+				caption: 'Undetected cheats with player ESP, loot ESP, and Cloud DMA',
 			},
 		],
 	},
