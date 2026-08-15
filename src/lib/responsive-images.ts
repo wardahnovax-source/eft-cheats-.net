@@ -24,6 +24,7 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 		name.endsWith('-1400w') ||
 		name.endsWith('-1024w') ||
 		name.endsWith('-1536w') ||
+		name.endsWith('-1920w') ||
 		name.endsWith('-480w')
 	) {
 		return undefined;
@@ -38,28 +39,30 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 }
 
 /**
- * Homepage / banner hero — compressed WebP ladder (not the PNG master).
- * Native art ~1536×1024 (~1.5:1).
+ * Homepage / banner hero — full-HD WebP ladder (1920w desktop LCP).
+ * Native art 1920×1280 (~1.5:1) upscaled from source for crisp display.
  */
 export const heroResponsive: ResponsiveWidth[] = [
 	{ src: '/images/eft-cheats-hero-640w.webp', width: 640 },
 	{ src: '/images/eft-cheats-hero-1024w.webp', width: 1024 },
+	{ src: '/images/eft-cheats-hero-1536w.webp', width: 1536 },
+	{ src: '/images/eft-cheats-hero-1920w.webp', width: 1920 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
-/** Default LCP src — mid ladder WebP. */
-export const heroSrc = '/images/eft-cheats-hero-1024w.webp';
+/** Default LCP src — full-HD WebP for desktop clarity. */
+export const heroSrc = '/images/eft-cheats-hero-1920w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 
-/** LCP preload — same compressed WebP. */
+/** LCP preload — same full-HD WebP. */
 export const heroPreloadSrc = heroSrc;
 export const heroMimeType = 'image/webp';
 
-/** Exact native dimensions (no zoom crop). */
-export const heroWidth = 1024;
-export const heroHeight = 409;
+/** Native dimensions for layout / CLS (1920×1280 upscaled art). */
+export const heroWidth = 1920;
+export const heroHeight = 1280;
 
 /** Responsive widths for below-fold content images. */
 export const contentWidths = [480, 960] as const;

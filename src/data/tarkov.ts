@@ -44,6 +44,6 @@ export const tarkovImages = {
 	sitemap: [
 		{ src: '/images/eft-cheats-screenshot-1.webp', title: '', caption: '' },
 		{ src: '/images/eft-cheats-screenshot-2.webp', title: '', caption: '' },
-		{ src: '/images/eft-cheats-hero-1024w.webp', title: '', caption: '' },
+		{ src: '/images/eft-cheats-hero-1920w.webp', title: '', caption: '' },
 	],
 } as const;

@@ -25,8 +25,8 @@ export const brand = {
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
 	logoAlt: 'Escape from Tarkov logo',
-	defaultOgImage: '/images/eft-cheats-hero-1024w.webp',
-	heroImage: '/images/eft-cheats-hero-1024w.webp',
+	defaultOgImage: '/images/eft-cheats-hero-1920w.webp',
+	heroImage: '/images/eft-cheats-hero-1920w.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
@@ -71,46 +71,32 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		/** Titles ≤60 chars; descriptions ~140–160 (Google SERP display). */
-		/** Home = brand hub. Money URL /tarkov-cheats/ owns the head term. */
 		homeTitle: 'Escape from Tarkov | Undetected ESP & Aimbot',
-		homeDescription:
-			'Official Escape from Tarkov cheats site for Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass — compare plans and buy with 24/7 support.',
+		homeDescription: 'Official Escape from Tarkov cheats site for Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass — compare plans and buy with 24/7 support.',
 		featuresTitle: '{game} Features | {brand}',
-		featuresDescription:
-			'Everything in one {game} license — player ESP with skeleton, loot ESP, extraction ESP, aimbot, no recoil, Cloud DMA, and {antiCheat} bypass on Windows PC.',
+		featuresDescription: 'Everything in one {game} license — player ESP with skeleton, loot ESP, extraction ESP, aimbot, no recoil, Cloud DMA, and {antiCheat} bypass on Windows PC.',
 		storeTitle: '{game} Store | {brand}',
-		storeDescription:
-			'Monthly and lifetime {game} plans for Windows PC. Same ESP, aimbot, and Cloud DMA features on both. Instant delivery after payment checkout.',
+		storeDescription: 'Monthly and lifetime {game} plans for Windows PC. Same ESP, aimbot, and Cloud DMA features on both. Instant delivery after payment checkout.',
 		statusTitle: '{game} Status | {brand}',
-		statusDescription:
-			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a raid on Windows PC today.',
-		/** Money page meta — primary target for "eft cheats". */
+		statusDescription: 'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue a raid on Windows PC today.',
 		previewTitle: 'Escape from Tarkov Cheats | Undetected ESP',
-		previewDescription:
-			'Buy undetected Escape from Tarkov cheats on Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass with instant delivery.',
+		previewDescription: 'Buy undetected Escape from Tarkov cheats on Windows PC. Player ESP, loot ESP, aimbot, Cloud DMA, and BattlEye bypass with instant delivery.',
 		setupTitle: '{game} Setup | {brand}',
-		setupDescription:
-			'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can raid faster. Follow each step in order before your first match.',
+		setupDescription: 'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can raid faster. Follow each step in order before your first match.',
 		supportTitle: '{game} Support | {brand}',
-		supportDescription:
-			'Get 24/7 help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
+		supportDescription: 'Get 24/7 help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
 		faqTitle: '{game} FAQ | {brand}',
-		faqDescription:
-			'Short answers about {brand} for Escape from Tarkov — delivery, setup, {antiCheat} updates, Cloud DMA, refunds, and Windows PC notes.',
+		faqDescription: 'Short answers about {brand} for Escape from Tarkov — delivery, setup, {antiCheat} updates, Cloud DMA, refunds, and Windows PC notes.',
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
-		reviewsDescription:
-			'Buyer reviews for {brand} — ESP, aimbot, loot ESP, Cloud DMA, and patch updates for Escape from Tarkov on Windows PC.',
+		reviewsDescription: 'Buyer reviews for {brand} — ESP, aimbot, loot ESP, Cloud DMA, and patch updates for Escape from Tarkov on Windows PC.',
 		blogTitle: '{game} Intel | {brand}',
-		blogDescription:
-			'Guides and notes for {game} — raid tips, ESP, aimbot, loot routes, and {antiCheat} update coverage for Windows PC players who raid.',
+		blogDescription: 'Guides and notes for {game} — raid tips, ESP, aimbot, loot routes, and {antiCheat} update coverage for Windows PC players who raid.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */
 	copy: {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, loot ESP & Cloud DMA for PC',
-		summary:
-			'{brand} is an undetected {game} cheat package for Windows PC. Includes player ESP with skeleton, loot ESP, aimbot, no recoil, and Cloud DMA with {antiCheat} bypass.',
+		summary: '{brand} is an undetected {game} cheat package for Windows PC. Includes player ESP with skeleton, loot ESP, aimbot, no recoil, and Cloud DMA with {antiCheat} bypass.',
 		heroLede: 'Undetected player ESP, loot ESP, aimbot, and Cloud DMA for Escape from Tarkov on Windows PC.',
 		blogLabel: 'Tarkov Intel',
 		ctaBuy: 'Get Access',
@@ -118,8 +104,7 @@ export const brand = {
 		featuresIntro: 'Everything included in one license for {game} on Windows PC.',
 		storeIntro: 'Pick a plan. Same features on both. Instant delivery after payment.',
 		statusIntro: 'Check here after a {game} or {antiCheat} patch before you raid.',
-		previewIntro:
-			'Undetected cheats for {game} — player ESP with skeleton, loot ESP, aimbot, no recoil, Cloud DMA, and BattlEye bypass.',
+		previewIntro: 'Undetected cheats for {game} — player ESP with skeleton, loot ESP, aimbot, no recoil, Cloud DMA, and BattlEye bypass.',
 		setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 		supportIntro: 'Need help with {brand}? Email {email} with your order ID — 24/7 support available.',
 		faqIntro: 'Short answers about delivery, setup, updates, Cloud DMA, and refunds.',
@@ -159,7 +144,7 @@ export const brand = {
 				caption: 'Loot ESP, aimbot, and container ESP in one EFT cheats license',
 			},
 			{
-				src: '/images/eft-cheats-hero-1024w.webp',
+				src: '/images/eft-cheats-hero-1920w.webp',
 				title: 'Escape from Tarkov — ESP and aimbot',
 				caption: 'Undetected cheats with player ESP, loot ESP, and Cloud DMA',
 			},

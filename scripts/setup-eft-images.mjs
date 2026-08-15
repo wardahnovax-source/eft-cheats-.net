@@ -5,28 +5,30 @@ import sharp from 'sharp';
 const imagesDir = path.resolve('public/images');
 const heroSource = path.join(imagesDir, 'eft-cheats-hero-source.png');
 
-const HERO_WIDTHS = [640, 1024, 1536];
+/** Full-HD ladder — allow upscale to 1920 for crisp desktop LCP */
+const HERO_WIDTHS = [
+	{ width: 640, quality: 82 },
+	{ width: 1024, quality: 88 },
+	{ width: 1536, quality: 92 },
+	{ width: 1920, quality: 92 },
+];
 
 async function processHero() {
 	const meta = await sharp(heroSource).metadata();
 	console.log(`Hero source: ${meta.width}x${meta.height}`);
 
-	// Full PNG for legacy references
-	await sharp(heroSource)
-		.resize({ width: 1536, withoutEnlargement: true })
-		.png()
-		.toFile(path.join(imagesDir, 'eft-cheats-hero-full.png'));
+	// Native PNG master for OG / legacy
+	await sharp(heroSource).png({ compressionLevel: 6 }).toFile(path.join(imagesDir, 'eft-cheats-hero-full.png'));
 
-	for (const width of HERO_WIDTHS) {
-		if (meta.width && width > meta.width) continue;
-		const quality = width <= 640 ? 70 : 78;
+	for (const { width, quality } of HERO_WIDTHS) {
 		const buffer = await sharp(heroSource)
-			.resize({ width, withoutEnlargement: true })
-			.webp({ quality, effort: 6 })
+			.resize({ width, withoutEnlargement: false })
+			.webp({ quality, effort: 6, smartSubsample: false })
 			.toBuffer();
 		const file = `eft-cheats-hero-${width}w.webp`;
 		await writeFile(path.join(imagesDir, file), buffer);
-		console.log(`Wrote ${file} (${buffer.length} bytes)`);
+		const out = await sharp(buffer).metadata();
+		console.log(`Wrote ${file} (${buffer.length} bytes, ${out.width}x${out.height})`);
 	}
 }
 
@@ -58,21 +60,6 @@ async function processLogo() {
 	console.log('Wrote favicons');
 }
 
-async function processScreenshots() {
-	for (const base of ['eft-cheats-screenshot-1', 'eft-cheats-screenshot-2']) {
-		const source = path.join(imagesDir, `${base}.webp`);
-		for (const width of [480, 960]) {
-			const buffer = await sharp(source)
-				.resize({ width, withoutEnlargement: true })
-				.webp({ quality: 78, effort: 6 })
-				.toBuffer();
-			await writeFile(path.join(imagesDir, `${base}-${width}w.webp`), buffer);
-			console.log(`Wrote ${base}-${width}w.webp`);
-		}
-	}
-}
-
 await processHero();
 await processLogo();
-await processScreenshots();
-console.log('EFT image setup complete.');
+console.log('EFT hero setup complete.');
