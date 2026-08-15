@@ -94,4 +94,21 @@ if (nextAstro === astro && !astro.includes(`site: '${brand.url}'`)) {
 }
 writeFileSync(astroPath, nextAstro, 'utf8');
 
-console.log(`sync-brand: ${brand.name} → ${brand.url} (robots Sitemap + Astro site)`);
+const middlewarePath = path.join(ROOT, 'functions/_middleware.js');
+let middleware = readFileSync(middlewarePath, 'utf8');
+const apexHost = new URL(brand.url).hostname;
+const wwwHost = `www.${apexHost}`;
+const nextMiddleware = middleware
+	.replace(/const CANONICAL_ORIGIN = '[^']*';/, `const CANONICAL_ORIGIN = '${brand.url}';`)
+	.replace(/const APEX_HOST = '[^']*';/, `const APEX_HOST = '${apexHost}';`)
+	.replace(/const WWW_HOST = '[^']*';/, `const WWW_HOST = '${wwwHost}';`);
+if (
+	nextMiddleware === middleware &&
+	(!middleware.includes(`const CANONICAL_ORIGIN = '${brand.url}'`) ||
+		!middleware.includes(`const APEX_HOST = '${apexHost}'`))
+) {
+	throw new Error('Could not update domain constants in functions/_middleware.js');
+}
+writeFileSync(middlewarePath, nextMiddleware, 'utf8');
+
+console.log(`sync-brand: ${brand.name} → ${brand.url} (robots Sitemap + Astro site + middleware)`);

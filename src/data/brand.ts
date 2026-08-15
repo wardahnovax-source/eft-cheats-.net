@@ -148,6 +148,11 @@ export const brand = {
 				title: 'Escape from Tarkov — ESP and aimbot',
 				caption: 'Undetected cheats with player ESP, loot ESP, and Cloud DMA',
 			},
+			{
+				src: '/images/eft-cheats-hero-1024w.webp',
+				title: 'Live Escape from Tarkov cheat status',
+				caption: 'Check undetected status after BattlEye and game patches',
+			},
 		],
 	},
 } as const;
