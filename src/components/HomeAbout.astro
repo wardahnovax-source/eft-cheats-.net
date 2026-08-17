@@ -1,0 +1,81 @@
+---
+import { getT } from '../i18n/server';
+
+interface Props {
+	locale: string;
+}
+
+const { locale } = Astro.props;
+const t = getT(locale);
+---
+
+<section class="home-about shell" aria-labelledby="home-about-title">
+	<div class="home-about__block">
+		<h2 id="home-about-title">{t('home.aboutTitle')}</h2>
+		<p>
+			{t('home.aboutP1Before')}
+			<a href="/pricing/">{t('home.aboutStore')}</a>
+			{t('home.aboutP1Mid')}
+			<a href="/updates/">{t('home.aboutStatus')}</a>
+			{t('home.aboutP1After')}
+		</p>
+		<p>
+			{t('home.aboutP2Before')}
+			<a href="/tarkov-cheats/">{t('home.aboutPillar')}</a>
+			{t('home.aboutP2Mid')}
+			<a href="/tarkov-esp/">{t('home.aboutEsp')}</a>
+			{t('home.aboutP2Mid')}
+			<a href="/tarkov-aimbot/">{t('home.aboutAimbot')}</a>
+			{t('home.aboutP2Or')}
+			<a href="/updates/">{t('home.aboutUndetected')}</a>
+			{t('home.aboutP2After')}
+		</p>
+	</div>
+</section>
+
+<style>
+	.home-about {
+		padding-block: clamp(2.5rem, 5vw, 3.5rem) clamp(1.75rem, 3.5vw, 2.25rem);
+	}
+
+	.home-about__block {
+		max-width: 52rem;
+		padding: 0.1rem 0 0.1rem clamp(1.1rem, 2.5vw, 1.5rem);
+		border-left: 4px solid var(--magenta);
+	}
+
+	.home-about__block h2 {
+		margin: 0 0 1rem;
+		font-family: var(--font-display);
+		font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+		font-weight: 800;
+		letter-spacing: 0.04em;
+		line-height: 1.35;
+		text-transform: uppercase;
+		color: var(--magenta);
+	}
+
+	.home-about__block p {
+		margin: 0 0 0.9rem;
+		font-family: var(--font-sans);
+		font-size: 0.9375rem;
+		line-height: 1.7;
+		color: var(--ink);
+	}
+
+	.home-about__block p:last-child {
+		margin-bottom: 0;
+	}
+
+	.home-about__block a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+		transition: color 0.15s ease;
+	}
+
+	.home-about__block a:hover {
+		color: var(--magenta);
+		text-decoration: underline;
+	}
+</style>
